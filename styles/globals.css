@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .site-container{
+    @apply max-w-3xl mx-auto px-4 bg-blue-300
+  }
+  .box-special{
+    @apply px-4 py-3 text-xl border-black border-2 text-center bg-white absolute
+  }
+  .header-container{
+    @apply site-container py-6 w-full bg-blue-200 shadow-lg sticky z-10 top-2 px-10 rounded-sm
+  }
+}

@@ -7,9 +7,20 @@
     @apply max-w-3xl mx-auto px-4 bg-blue-300
   }
   .box-special{
-    @apply px-4 py-3 text-xl border-black border-2 text-center bg-white absolute
+    @apply px-4 py-3 text-xl border-black border-2 text-center bg-white static sm:absolute
   }
   .header-container{
     @apply site-container py-6 w-full bg-blue-200 shadow-lg sticky z-10 top-2 px-10 rounded-sm
+  }
+  iframe{
+    max-width: 100%;
+  }
+  *{
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none
   }
 }
